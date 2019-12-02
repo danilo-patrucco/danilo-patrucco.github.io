@@ -6,6 +6,18 @@ title: Resume
 ---
 <head>
     <div id="wrapper">
-        <iframe src="{{ site.resume }}" allowfullscreen align="right"></iframe>
+        <div id="content">
+            <h1>My Resume <br></h1>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/main.css">
+            <meta charset='utf-8'>
+            <iframe src="{{ site.resume }}" allowfullscreen align="right" style="height: 500px; width: 593px;">
+
+            </iframe>
+        </div>
+        <div id="sidetext">
+            <p><br>This is my most up to date resume, if needed here is a direct link where it can be downloaded</p>
+            <a href='{{ site.resume }}'><h2 style="text-align: center;"><br>Resume</h2></a>
+        </div>
     </div>
 </head>
